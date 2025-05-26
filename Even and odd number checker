@@ -6,7 +6,7 @@ int main() {
 
     cout << "=== Even or Odd Checker ===\n";
 
-    // 
+
     cout << "Enter an integer: ";
     cin >> number;
 
