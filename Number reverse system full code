@@ -10,7 +10,7 @@ int main() {
     cout << "Enter an integer: ";
     cin >> number;
 
-    int original = number;  // Store original number for di
+    int original = number;  // Store original number
 
     // Reverse the digits
     while (number != 0) {
