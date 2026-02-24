@@ -9,8 +9,6 @@ int main() {
     cin >> number;
 
     int original = number;  // Store original number
-
-    // Reverse the digits
     while (number != 0) {
         remainder = number % 10;             // Get the last
         reversed = reversed * 10 + remainder; // Append digit to reversed number
