@@ -5,8 +5,6 @@ int main() {
     int number, reversed = 0, remainder;
 
     cout << "=== Number Reverser ===\n";
-
-    // Input the 
     cout << "Enter an integer: ";
     cin >> number;
 
