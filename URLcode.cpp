@@ -17,7 +17,7 @@ private:
 public:
     void createShortURL() {
         string longURL;
-        cout << "\nEnter the original URL: ";
+        cout << "\nEnter the original URL: 
         cin.ignore();
         getline(cin, longURL);
 
@@ -91,6 +91,7 @@ int main() {
     return 0;
 
 }
+
 
 
 
