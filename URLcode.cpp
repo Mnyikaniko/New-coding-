@@ -21,7 +21,7 @@ public:
         cin.ignore();
         getline(cin, longURL);
 
-        if (longToShort.find(longURL) != longToShort.end()) {
+        if (longToShort.find(longURL) != longToShort. {
             cout << "Short URL already exists: " << longToShort[longURL] << "\n";
         } else {
             string shortURL = generateShortURL(longURL);
@@ -91,6 +91,7 @@ int main() {
     return 0;
 
 }
+
 
 
 
