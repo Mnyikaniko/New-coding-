@@ -39,7 +39,7 @@ public:
         cin.ignore();
         getline(cin, shortURL);
 
-        if (shortToLong.find(shortURL) != shortToLong.end( {
+        if (shortToLong.find(shortURL) != shortToLong.{
             cout << "Original URL: " << shortToLong[shortURL] << "\n";
         } else {
             cout << "Short URL not found!\n";
@@ -93,4 +93,5 @@ int main() {
     return 0;
 
 }
+
 
